@@ -11,7 +11,7 @@ studentLast = input("Enter student last name or ZZZ to exit the program ")
 
 while studentLast != "ZZZ": # the progream will keep running until ZZZ is input.
     studentGpa = float(input("what is " + studentLast + " GPA? "))
-    
+
     if studentGpa >= 3.5 : # dean's list if student gpa is 3.5 or higher 
         print(studentLast + " has  made the Dean's List")
         studentLast = input("Enter student last name or ZZZ to exit the program")
