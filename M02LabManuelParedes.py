@@ -24,5 +24,4 @@ while studentLast != "ZZZ": # the progream will keep running until ZZZ is input.
     else: # added an extra list, rest of students with a GPA lower than 3.25
         print(studentLast + "didn't make it to honor roll")
         studentLast = input("Enter student last name or ZZZ to exit the program")
-        
     
